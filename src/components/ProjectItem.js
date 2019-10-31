@@ -11,7 +11,7 @@ export default class ProjectItem extends Component {
       >
         <div
           className='project-item'
-          style={{ backgroundImage: `url('../../images/${img}')` }}
+          style={{ backgroundImage: `url('./images/${img}')` }}
         ></div>
       </div>
     );

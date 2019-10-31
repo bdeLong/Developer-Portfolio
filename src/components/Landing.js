@@ -45,11 +45,7 @@ export default class Landing extends Component {
           ></TextLoop>{" "}
           | Chicago, IL
         </h2>
-        <img
-          className='landing-img'
-          src='../../public/images/beer2.png'
-          alt='Cheers!'
-        />
+        <img className='landing-img' src='./images/beer2.png' alt='Cheers!' />
         <div className='email'>
           <a
             href='mailto:bendelong45@gmail.com'
@@ -90,7 +86,7 @@ export default class Landing extends Component {
         </div>
         <img
           className='scroll-down'
-          src='../../images/scroll2.png'
+          src='./images/scroll2.png'
           alt='scroll'
           onClick={e => this.handleScroll(e)}
         />

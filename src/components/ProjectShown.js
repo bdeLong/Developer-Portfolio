@@ -8,7 +8,7 @@ export default class ProjectShown extends Component {
       <div className={"project-shown " + category}>
         <div
           className='container'
-          style={{ backgroundImage: `url('../../images/${img}')` }}
+          style={{ backgroundImage: `url('./images/${img}')` }}
         ></div>
         <div className='project-details'>
           <div>

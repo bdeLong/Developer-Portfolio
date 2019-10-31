@@ -114,7 +114,7 @@ export default class Projects extends Component {
             onTouchStart={event => this.handleMove(false)}
             onTouchEnd={event => this.handleMoveStop()}
           >
-            <img src='../../images/arrow-left.png' alt='<' />
+            <img src='./images/arrow-left.png' alt='<' />
           </button>
           <div className='projects-list' ref='listElem'>
             {projectsList}
@@ -125,7 +125,7 @@ export default class Projects extends Component {
             onTouchStart={event => this.handleMove(true)}
             onTouchEnd={event => this.handleMoveStop()}
           >
-            <img src='../../images/arrow-right.png' alt='>' />
+            <img src='./images/arrow-right.png' alt='>' />
           </button>
         </div>
       </section>
