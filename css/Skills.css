@@ -1,0 +1,12 @@
+.skills {
+  padding: 0 1rem;
+  margin: auto;
+  max-width: 30rem;
+  text-align: left;
+}
+.skills pre {
+  background-color: ghostwhite;
+  padding: 1rem;
+  margin: auto;
+  overflow-x: auto;
+}

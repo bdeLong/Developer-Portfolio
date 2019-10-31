@@ -1,0 +1,85 @@
+.landing {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: calc(100vh / 24) 0;
+  background-image: url(../images/sunset.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name {
+  margin: auto 0 0 0;
+  color: ghostwhite;
+}
+.title {
+  font-weight: 400;
+  color: ghostwhite;
+}
+.landing-img {
+  max-height: 20rem;
+  margin: 1rem auto;
+}
+.email {
+  margin-top: 0.5rem;
+}
+.links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.social-link,
+.social-link:visited,
+.social-link:active {
+  color: ghostwhite;
+}
+
+.social-link:hover {
+  color: grey;
+}
+
+.links span {
+  margin: 0 0.5rem;
+  color: ghostwhite;
+}
+.scroll-down {
+  margin: auto auto 0 auto;
+  max-width: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  color: ghostwhite;
+}
+.scroll-down:hover {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .landing > div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .title + span {
+    display: inherit;
+  }
+}
