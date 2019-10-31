@@ -47,7 +47,7 @@ export default class Landing extends Component {
         </h2>
         <img
           className='landing-img'
-          src='../../public/images/beer2.png'
+          src='.././images/beer2.png'
           alt='Cheers!'
         />
         <div className='email'>
