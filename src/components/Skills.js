@@ -4,8 +4,7 @@ export default class Skills extends Component {
   render() {
     const skills = `let skillsChecklist = {
 
-frontEnd: ['Javascript','ES6','React','HTML 5',
-'CSS 3','JQuery','Bootstrap 4'],
+frontEnd: ['Javascript','ES6','React','HTML 5','CSS 3','JQuery','Bootstrap 4'],
 
 backEnd: ['Node.js','MongoDB','Express','MySQL'],
 
