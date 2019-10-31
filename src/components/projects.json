@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "title": "BeerMe",
+      "description": "BeerMe is a full stack, mobile first application that helps recommend Chicago beers based on your current mood/situation.",
+      "link": "https://hopstuff.herokuapp.com",
+      "github": "https://github.com/bdeLong/BeerMe",
+      "img": "beerme.png"
+    },
+    {
+      "title": "Hello World",
+      "description": "Hello World is a full stack application with the goal of creating a a different kind of experience for anyone traveling the world. (Hosted on Heroku, so it may take a bit to load.)",
+      "link": "https://final-project-3.herokuapp.com/",
+      "github": "https://github.com/los-programadores/dreamteam",
+      "img": "helloworld.png"
+    },
+    {
+      "title": "Poll Pal",
+      "description": "This is an application created to make reading and understanding your ballot as easy as possible come election time.",
+      "link": "https://bdelong.github.io/Poll-Pal/",
+      "github": "https://github.com/bdeLong/Poll-Pal",
+      "img": "pollpal.png"
+    },
+    {
+      "title": "Siri Ripoff",
+      "description": "This is a terminal based Node app.  I created a personal assistant called Liri (limited Siri) which can help you find concert dates for an artist, search Spotify for a song, and search for movie information in IMDB.",
+      "github": "https://github.com/bdeLong/liri-node-app",
+      "img": "liri.png"
+    },
+    {
+      "title": "Fifty Shades of Grey React Game",
+      "description": "This is a memory/guessing click game made with React. Click the colors without clicking one that has been clicked before.",
+      "link": "https://bdelong.github.io/50-Shades-of-Clicked/",
+      "github": "https://github.com/bdeLong/50-Shades-of-Clicked",
+      "img": "50shades.png"
+    },
+    {
+      "title": "Crystal Collector",
+      "description": "This is a simple math based Javascript game utlizing jQuery, themed to Adult Swim's show Rick and Morty. If you like adding numbers together this will scratch your itch. ",
+      "link": "https://bdelong.github.io/crystal-collector/",
+      "github": "https://github.com/bdeLong/crystal-collector",
+      "img": "crystal.png"
+    },
+    {
+      "title": "Bad Amazon",
+      "description": "Another terminal based Node app that mimics Amazon. Utilizing MySQL, the application lets you can search for items, add them to your cart, and checkout, and updates inventory.  Look out Jeff Bezos!",
+      "github": "https://github.com/bdeLong/Bamazon",
+      "img": "bamazon.png"
+    },
+    {
+      "title": "WWE Hangman Game",
+      "description": "This is a single page, Vanilla Javascript hangman game.  Themed with my favorite wrestlers of all time.",
+      "link": "https://bdelong.github.io/Word-Guess-Game/#",
+      "github": "https://github.com/bdeLong/Word-Guess-Game",
+      "img": "wrestling.png"
+    },
+    {
+      "title": "The Office Trivia Game",
+      "description": "Classic timed jQuery trivia game themed to NBC's 'The Office'.",
+      "link": "https://bdelong.github.io/TriviaGame/",
+      "github": "https://github.com/bdeLong/TriviaGame",
+      "img": "theoffice.png"
+    },
+    {
+      "title": "Catch a Ride!",
+      "description": "Catch a Ride is a train schedule application that incorporates Firebase to host arrival and departure data.",
+      "link": "https://github.com/bdeLong/Train_Timer",
+      "github": "https://bdelong.github.io/Train_Timer/",
+      "img": "catcharide.png"
+    }
+  ]
+}

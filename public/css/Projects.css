@@ -1,0 +1,175 @@
+.projects {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 48rem;
+}
+.projects > div {
+  margin-top: 1rem;
+}
+.category > h3 {
+  margin: 1rem 0;
+  text-transform: capitalize;
+  text-align: left;
+}
+.projects > .projects-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+.projects-container > button {
+  -ms-flex: 0 1 2.5rem;
+  flex: 0 1 2.5rem;
+  background: none;
+  outline: none;
+  border: none;
+  margin: 4px auto;
+  padding: 0 10px;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: background 0.35s ease-in-out;
+  -o-transition: background 0.35s ease-in-out;
+  transition: background 0.35s ease-in-out;
+}
+.projects-container > button > img {
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.projects-container > button:hover > img {
+  opacity: 0.9;
+}
+.projects-list {
+  -ms-flex: 1 0;
+  flex: 1 0;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  padding: 5px 0;
+}
+.projects-list::-webkit-scrollbar {
+  display: hidden;
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+  visibility: hidden;
+}
+.projects-list > .project-item-container:first-child {
+  margin-left: 0;
+}
+.projects-list > .project-item-container:last-child {
+  margin-right: 0;
+}
+.project-item-container {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  margin: auto 5px;
+  display: inline;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6),
+    0px 1px 3px rgba(0, 0, 0, 0.6), 0px 1px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6), 0px 1px 3px rgba(0, 0, 0, 0.6),
+    0px 1px 3px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.project-item-container:hover .project-item {
+  opacity: 0.6;
+}
+.project-item-container.selected {
+  opacity: 0.3;
+}
+.project-item {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 56.25%;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.project-shown {
+  max-height: 30rem;
+  position: relative;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.project-shown .container {
+  height: 0.01em;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50%;
+}
+.project-details {
+  padding: 0.85rem;
+  text-align: left;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #eee;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.project-details .description {
+  margin: 8px 0 0 0;
+  color: ghostwhite;
+}
+.project-details a {
+  display: inline-block;
+  color: #eee;
+  margin: 8px 0 0 0;
+}
+.project-details a + span {
+  margin: 0 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-item-container {
+    -ms-flex: 1 0 15%;
+    flex: 1 0 15%;
+  }
+  .project-details {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+.project-enter {
+  -webkit-filter: brightness(0.2);
+  filter: brightness(0.2);
+}
+
+.project-enter.project-enter-active {
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+  -webkit-transition: -webkit-filter 200ms ease-in;
+  transition: -webkit-filter 200ms ease-in;
+  -o-transition: filter 200ms ease-in;
+  transition: filter 200ms ease-in;
+  transition: filter 200ms ease-in, -webkit-filter 200ms ease-in;
+}
+
+.project-exit {
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+}
+
+.project-exit.project-exit-active {
+  -webkit-filter: brightness(0.2);
+  filter: brightness(0.2);
+  -webkit-transition: -webkit-filter 200ms ease-in;
+  transition: -webkit-filter 200ms ease-in;
+  -o-transition: filter 200ms ease-in;
+  transition: filter 200ms ease-in;
+  transition: filter 200ms ease-in, -webkit-filter 200ms ease-in;
+}
