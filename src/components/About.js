@@ -15,7 +15,7 @@ export default class About extends Component {
         <p>
           My experiences are wide-ranging and have opened my mind and broadened
           my creativity. I hold a Bachelor of Science degree from the University
-          of Wisconsin-Madison, as well as a Full-Stack Wed Development
+          of Wisconsin-Madison, as well as a Full-Stack Web Development
           certificate from Northwestern University.
         </p>
         <p>
