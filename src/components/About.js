@@ -8,9 +8,9 @@ export default class About extends Component {
 
         <p>
           I love creative problem solving, building ambitious websites and
-          applications, and cold beer. I also enjoy being around like minded
-          people, learning, innovating, and pushing the boundaries of my ever
-          expanding comfort zone.
+          applications, and cold beer. I thrive in a team environment or flying
+          solo. I enjoy learning, innovating, and pushing the boundaries of my
+          ever expanding comfort zone.
         </p>
         <p>
           My experiences are wide-ranging and have opened my mind and broadened
