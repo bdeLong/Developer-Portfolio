@@ -2,14 +2,14 @@
   "items": [
     {
       "title": "BeerMe",
-      "description": "BeerMe is a full stack, mobile first application that helps recommend Chicago beers based on your current mood/situation.",
+      "description": "BeerMe is a full stack, mobile first application that helps recommend Chicago beers based on your current mood/situation. (Hosted on Heroku, so it may take some time to load.)",
       "link": "https://hopstuff.herokuapp.com",
       "github": "https://github.com/bdeLong/BeerMe",
       "img": "beerme.png"
     },
     {
       "title": "Hello World",
-      "description": "Hello World is a full stack application with the goal of creating a different kind of experience for anyone traveling the world. (Hosted on Heroku, so it may take a bit to load.)",
+      "description": "Hello World is a full stack application with the goal of creating a different kind of experience for anyone traveling the world. (Hosted on Heroku, so it may take some time to load.)",
       "link": "https://final-project-3.herokuapp.com/",
       "github": "https://github.com/los-programadores/dreamteam",
       "img": "helloworld.png"
@@ -64,8 +64,8 @@
     {
       "title": "Catch a Ride!",
       "description": "Catch a Ride is a train schedule application that incorporates Firebase to host arrival and departure data.",
-      "link": "https://github.com/bdeLong/Train_Timer",
-      "github": "https://bdelong.github.io/Train_Timer/",
+      "link": "https://bdelong.github.io/Train_Timer/",
+      "github": "https://github.com/bdeLong/Train_Timer",
       "img": "catcharide.png"
     }
   ]

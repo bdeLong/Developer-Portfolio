@@ -7,11 +7,17 @@
   background-size: cover;
 }
 .skills pre {
-  max-width: 45rem;
+  font-size: 1.1rem;
+  max-width: 35rem;
   text-align: left;
   color: ghostwhite;
   padding: 1rem;
   margin: auto;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 footer {

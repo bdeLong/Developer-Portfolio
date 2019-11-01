@@ -4,11 +4,11 @@ export default class Skills extends Component {
   render() {
     const skills = `let skillsChecklist = {
 
-frontEnd: ['JavaScript ES6','React','HTML 5','CSS 3','JQuery','Bootstrap 4'],
+frontEnd: ['HTML5', 'JavaScript ES6', 'CSS3', 'JQuery', 'React.js', 'Bootstrap4'],
 
-backEnd: ['Node.js','MongoDB','Express','MySQL'],
+backEnd: ['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'Firebase'],
 
-tools: ['Github','Heroku','Git', 'Some Photoshop']
+tools: ['Github', 'Heroku', 'Git', 'Some Photoshop']
 
 }`;
     return (
