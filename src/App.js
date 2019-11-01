@@ -13,7 +13,6 @@ class App extends Component {
         <Projects />
         <About />
         <Skills />
-        <footer>© 2019 Ben deLong. All rights reserved.</footer>
       </div>
     );
   }
