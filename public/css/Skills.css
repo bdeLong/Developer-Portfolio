@@ -1,12 +1,22 @@
 .skills {
   padding: 0 1rem;
-  margin: auto;
-  max-width: 50rem;
-  text-align: left;
+  background-image: url(../images/sunset.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .skills pre {
-  background-color: ghostwhite;
+  max-width: 35rem;
+  text-align: left;
+  color: ghostwhite;
   padding: 1rem;
-  /* margin: auto; */
-  overflow-x: auto;
+  margin: auto;
+}
+
+footer {
+  font-size: 0.8em;
+  padding: 2rem 1em;
+  text-align: center;
+  color: ghostwhite;
 }
