@@ -22,7 +22,7 @@
       "img": "pollpal.png"
     },
     {
-      "title": "Siri Ripoff",
+      "title": "Liri Bot",
       "description": "This is a terminal based Node app.  I created a personal assistant called Liri (limited Siri) which can help you find concert dates for an artist, search Spotify for a song, or search for movie information in IMDB.",
       "github": "https://github.com/bdeLong/liri-node-app",
       "img": "liri.png"
@@ -62,7 +62,7 @@
       "img": "theoffice.png"
     },
     {
-      "title": "Catch a Ride!",
+      "title": "Catch a Ride",
       "description": "Catch a Ride is a train schedule application that incorporates Firebase to host arrival and departure data.",
       "link": "https://bdelong.github.io/Train_Timer/",
       "github": "https://github.com/bdeLong/Train_Timer",
