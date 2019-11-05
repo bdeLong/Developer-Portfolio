@@ -12,7 +12,6 @@ export default class Landing extends Component {
       window.scroll({
         top: window.scrollY + (window.innerHeight + 64 - window.scrollY) / 24,
         left: 0
-        // scrollbehavior: "smooth"
       });
       window.addEventListener("touchstart", function mobileTouch(e) {
         clearInterval(animate);
@@ -20,7 +19,6 @@ export default class Landing extends Component {
       });
     }, 25);
   }
-
   render() {
     return (
       <header className='landing'>
