@@ -3,7 +3,6 @@ import React, { Component, Fragment } from "react";
 export default class ProjectShown extends Component {
   render() {
     const { link, github, img, title, description, category } = this.props;
-
     return (
       <div className={"project-shown " + category}>
         <div
