@@ -143,7 +143,6 @@
     left: 0;
   }
 }
-
 .project-enter {
   -webkit-filter: brightness(0.2);
   filter: brightness(0.2);
