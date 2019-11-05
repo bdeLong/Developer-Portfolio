@@ -14,7 +14,6 @@ export default class Projects extends Component {
       changeSelect: true
     };
   }
-
   categorizeProjects(items) {
     let categorized = {};
     for (const item of items) {
