@@ -5,7 +5,6 @@ export default class About extends Component {
     return (
       <section className='about'>
         <h1>About me</h1>
-
         <p>
           I love creative problem solving, building ambitious websites and
           applications, and cold beer. I thrive in a team environment or flying
