@@ -3,7 +3,6 @@ import TextLoop from "react-text-loop";
 
 export default class Landing extends Component {
   handleScroll(e) {
-    console.log("sup");
     let animate = setInterval(function() {
       if (window.scrollY >= window.innerHeight) {
         clearInterval(animate);
@@ -56,6 +55,15 @@ export default class Landing extends Component {
         </div>
         <div className='links'>
           <a
+            href='./images/Benjamin_deLong_Resume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='social-link'
+          >
+            Resume
+          </a>
+          <span>|</span>
+          <a
             href='https://github.com/bdelong'
             target='_blank'
             rel='noopener noreferrer'
@@ -84,7 +92,7 @@ export default class Landing extends Component {
         </div>
         <img
           className='scroll-down'
-          src='./images/scroll2.png'
+          src='./images/scroll-white.png'
           alt='scroll'
           onClick={e => this.handleScroll(e)}
         />
