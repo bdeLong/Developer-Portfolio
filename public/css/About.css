@@ -2,14 +2,62 @@
   padding: 0 1rem;
   margin: auto;
   max-width: 48rem;
-  text-align: left;
 }
 .about h1 + p {
   margin-top: 1rem;
+  text-align: left;
 }
 .about p {
   font-family: "Crimson Text", serif;
   color: rgba(0, 0, 0, 0.8);
   margin: 2rem 0;
   font-size: 1.5rem;
+  text-align: left;
+}
+
+.about-email {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.about-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.about-social-link,
+.about-social-link:visited,
+.about-social-link:active {
+  color: black;
+}
+
+.about-social-link:hover {
+  color: grey;
+}
+
+.about-links span {
+  margin: 0 0.5rem;
+  color: black;
+}
+
+.scroll-up {
+  margin-top: 1.25rem;
+  max-width: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  color: ghostwhite;
+}
+.scroll-up:hover {
+  opacity: 1;
+}
+
+h5 {
+  margin-top: 0;
 }
